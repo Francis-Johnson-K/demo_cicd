@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def entry():
-    res = {'name': 'John', 'age': 30}
+    res = {'name': 'Martin', 'age': 32}
     return jsonify(res)
 
 
